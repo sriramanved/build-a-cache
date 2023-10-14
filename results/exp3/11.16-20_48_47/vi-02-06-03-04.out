@@ -1,0 +1,52 @@
+P5 Printout for CS 3410
+----------------------------------
+Trace  		trace.2t.long.txt
+Instruction Limit 	none
+ *** Cache Configuration *** 
+capacity   		   64 B
+block_size 		    8 B
+associativity 		4-way
+n_set 			2
+n_cache_line 	8
+tag: 28, index: 1, offset: 3
+Coherence Protocol: 	vi
+lru_on_invalidate_f: 	false
+Processing trace...
+2 1
+Processed 500000 lines.
+    *** Results for Core 0 ***
+0.n_cpu_accesses 	435563
+0.n_loads 		378062
+0.n_stores 		57501
+0.n_hits 		90279
+0.n_misses 		345284
+0.hit_rate 		20.73
+0.miss_rate 		79.27
+0.n_upgrade_miss 	0
+0.n_bus_snoops 	185562
+0.n_snoop_hits 	406
+0.n_writebacks 	48218
+Memory Traffic:
+0.B_written_bus_to_cache 	2762272
+0.B_written_cache_to_bus_wb 	385744
+0.B_written_cache_to_bus_wt 	0
+0.B_total_traffic_wb 	3148016
+0.B_total_traffic_wt 	0
+    *** Results for Core 1 ***
+1.n_cpu_accesses 	410127
+1.n_loads 		326842
+1.n_stores 		83285
+1.n_hits 		64856
+1.n_misses 		345271
+1.hit_rate 		15.81
+1.miss_rate 		84.19
+1.n_upgrade_miss 	0
+1.n_bus_snoops 	160128
+1.n_snoop_hits 	419
+1.n_writebacks 	70731
+Memory Traffic:
+1.B_written_bus_to_cache 	2762168
+1.B_written_cache_to_bus_wb 	565848
+1.B_written_cache_to_bus_wt 	0
+1.B_total_traffic_wb 	3328016
+1.B_total_traffic_wt 	0
